@@ -1,0 +1,18 @@
+
+fsm_encoding {5422421} sequential
+
+fsm_state_encoding {5422421} START {000}
+
+fsm_state_encoding {5422421} PATTERN_OFF {001}
+
+fsm_state_encoding {5422421} PATTERN_SHOW {010}
+
+fsm_state_encoding {5422421} WAIT_PLAYER {011}
+
+fsm_state_encoding {5422421} INCR_SCORE {100}
+
+fsm_state_encoding {5422421} LOSER {101}
+
+fsm_state_encoding {5422421} WINNER {110}
+
+fsm_registers {5422421} {r_SM_Main[2]}  {r_SM_Main[1]}  {r_SM_Main[0]} 

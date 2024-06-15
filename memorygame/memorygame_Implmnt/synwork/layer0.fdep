@@ -1,0 +1,42 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\tapiw\\Documents\\memorygame\\memorygame_Implmnt\\synwork\\memorygame_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\tapiw\\Documents\\memorygame\\|-I|C:\\synpbase\\lib|-v2001|-devicelib|C:\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\synpbase\\bin64\\c_ver.exe":1712940673
+#CUR:"C:\\synpbase\\lib\\generic\\sb_ice40.v":1712940676
+#CUR:"C:\\synpbase\\lib\\vlog\\hypermods.v":1712940677
+#CUR:"C:\\synpbase\\lib\\vlog\\umr_capim.v":1712940677
+#CUR:"C:\\synpbase\\lib\\vlog\\scemi_objects.v":1712940677
+#CUR:"C:\\synpbase\\lib\\vlog\\scemi_pipes.svh":1712940677
+#CUR:"C:\\Users\\tapiw\\Desktop\\State_Machine_Game.v":1718477729
+#CUR:"C:\\Users\\tapiw\\Desktop\\State_Machine_Project_Top.v":1718477729
+#CUR:"C:\\Users\\tapiw\\Desktop\\Binary_To_7Segment.v":1718477729
+#CUR:"C:\\Users\\tapiw\\Desktop\\Debounce_Filter.v":1718478315
+#CUR:"C:\\Users\\tapiw\\Desktop\\Count_And_Toggle.v":1718478975
+#CUR:"C:\\Users\\tapiw\\Desktop\\LFSR_22.v":1718479288
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\tapiw\Desktop\State_Machine_Game.v" verilog
+1			"C:\Users\tapiw\Desktop\State_Machine_Project_Top.v" verilog
+2			"C:\Users\tapiw\Desktop\Binary_To_7Segment.v" verilog
+3			"C:\Users\tapiw\Desktop\Debounce_Filter.v" verilog
+4			"C:\Users\tapiw\Desktop\Count_And_Toggle.v" verilog
+5			"C:\Users\tapiw\Desktop\LFSR_22.v" verilog
+#Dependency Lists(Uses List)
+0 4 5
+1 3 0 2
+2 -1
+3 -1
+4 -1
+5 -1
+#Dependency Lists(Users Of)
+0 1
+1 -1
+2 1
+3 1
+4 0
+5 0
+#Design Unit to File Association
+module work Count_And_Toggle 4
+module work LFSR_22 5
+module work State_Machine_Game 0
+module work Debounce_Filter 3
+module work Binary_To_7Segment 2
+module work State_Machine_Project_Top 1

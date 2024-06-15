@@ -1,0 +1,13 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\tapiw\Desktop\Debounce_Filter.v":9:7:9:21|Synthesizing module Debounce_Filter in library work.
+@N: CG364 :"C:\Users\tapiw\Desktop\Count_And_Toggle.v":5:7:5:22|Synthesizing module Count_And_Toggle in library work.
+@N: CG364 :"C:\Users\tapiw\Desktop\LFSR_22.v":2:7:2:13|Synthesizing module LFSR_22 in library work.
+@N: CG364 :"C:\Users\tapiw\Desktop\State_Machine_Game.v":11:7:11:24|Synthesizing module State_Machine_Game in library work.
+@N: CG364 :"C:\Users\tapiw\Desktop\Binary_To_7Segment.v":13:7:13:24|Synthesizing module Binary_To_7Segment in library work.
+@N: CG364 :"C:\Users\tapiw\Desktop\State_Machine_Project_Top.v":12:7:12:31|Synthesizing module State_Machine_Project_Top in library work.
+@N: CL201 :"C:\Users\tapiw\Desktop\State_Machine_Game.v":42:2:42:7|Trying to extract state machine for register r_SM_Main.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\tapiw\Desktop\State_Machine_Project_Top.v":12:7:12:31|Selected library: work cell: State_Machine_Project_Top view verilog as top level
+@N: NF107 :"C:\Users\tapiw\Desktop\State_Machine_Project_Top.v":12:7:12:31|Selected library: work cell: State_Machine_Project_Top view verilog as top level
+

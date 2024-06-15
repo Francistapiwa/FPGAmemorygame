@@ -1,0 +1,4 @@
+@W: CL169 :"C:\Users\tapiw\Desktop\State_Machine_Game.v":134:2:134:7|Pruning unused register r_Pattern_8_[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\tapiw\Desktop\State_Machine_Game.v":134:2:134:7|Pruning unused register r_Pattern_9_[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\tapiw\Desktop\State_Machine_Game.v":134:2:134:7|Pruning unused register r_Pattern_10_[1:0]. Make sure that there are no unused intermediate registers.
+

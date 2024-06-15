@@ -1,0 +1,15 @@
+C:\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt   -part iCE40HX1K  -package VQ100    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synlog\report\memorygame_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.edf   -autoconstraint  -freq 1.000   -tcl  C:\Users\tapiw\Downloads\Go_Board_Clock_Constraint.sdc  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synwork\memorygame_prem.srd  -sap  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.sap  -otap  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.tap  -omap  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.map  -devicelib  C:\synpbase\lib\generic\sb_ice40.v  -sap  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.sap  -ologparam  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\syntmp\memorygame.plg  -osyn  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.srm  -prjdir  C:\Users\tapiw\Documents\memorygame\  -prjname  memorygame_syn  -log  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synlog\memorygame_fpga_mapper.srr 
+rc:1 success:1 runtime:2
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.edf|io:o|time:1718479723|size:257826|exec:0
+file:C:\Users\tapiw\Downloads\Go_Board_Clock_Constraint.sdc|io:i|time:1712496662|size:356|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synwork\memorygame_prem.srd|io:i|time:1718479722|size:16360|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.sap|io:o|time:1718479722|size:1479|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.tap|io:o|time:0|size:0|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.map|io:o|time:1718479724|size:28|exec:0
+file:C:\synpbase\lib\generic\sb_ice40.v|io:i|time:1712940676|size:224837|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.sap|io:o|time:1718479722|size:1479|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\syntmp\memorygame.plg|io:o|time:1718479724|size:532|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.srm|io:o|time:1718479723|size:13031|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synlog\memorygame_fpga_mapper.srr|io:o|time:1718479724|size:19342|exec:0
+file:C:\synpbase\bin\m_generic.exe|io:i|time:1712940672|size:17853440|exec:1
+file:C:\synpbase\bin64\m_generic.exe|io:i|time:1712940674|size:32355840|exec:1

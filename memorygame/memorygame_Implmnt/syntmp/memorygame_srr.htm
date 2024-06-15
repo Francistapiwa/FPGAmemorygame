@@ -1,0 +1,548 @@
+<html><body><samp><pre>
+<!@TC:1718479721>
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\synpbase
+#OS: Windows 8 6.2
+#Hostname: FRANCIS360
+
+# Sat Jun 15 15:28:41 2024
+
+#Implementation: memorygame_Implmnt
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1718479721> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1718479721> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\tapiw\Desktop\State_Machine_Game.v" (library work)
+@I::"C:\Users\tapiw\Desktop\State_Machine_Project_Top.v" (library work)
+@I::"C:\Users\tapiw\Desktop\Binary_To_7Segment.v" (library work)
+@I::"C:\Users\tapiw\Desktop\Debounce_Filter.v" (library work)
+@I::"C:\Users\tapiw\Desktop\Count_And_Toggle.v" (library work)
+@I::"C:\Users\tapiw\Desktop\LFSR_22.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module State_Machine_Project_Top
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\tapiw\Desktop\Debounce_Filter.v:9:7:9:22:@N:CG364:@XP_MSG">Debounce_Filter.v(9)</a><!@TM:1718479721> | Synthesizing module Debounce_Filter in library work.
+
+	DEBOUNCE_LIMIT=32'b00000000000000111101000010010000
+   Generated name = Debounce_Filter_250000s
+
+@A:<a href="@A:CG412:@XP_HELP">CG412</a> : <a href="C:\Users\tapiw\Desktop\Debounce_Filter.v:22:8:22:30:@A:CG412:@XP_MSG">Debounce_Filter.v(22)</a><!@TM:1718479721> | Treating === and !== as == and != -- possible simulation mismatch
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\tapiw\Desktop\Count_And_Toggle.v:5:7:5:23:@N:CG364:@XP_MSG">Count_And_Toggle.v(5)</a><!@TM:1718479721> | Synthesizing module Count_And_Toggle in library work.
+
+	COUNT_LIMIT=32'b00000000010111110101111000010000
+   Generated name = Count_And_Toggle_6250000s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\tapiw\Desktop\LFSR_22.v:2:7:2:14:@N:CG364:@XP_MSG">LFSR_22.v(2)</a><!@TM:1718479721> | Synthesizing module LFSR_22 in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\tapiw\Desktop\State_Machine_Game.v:11:7:11:25:@N:CG364:@XP_MSG">State_Machine_Game.v(11)</a><!@TM:1718479721> | Synthesizing module State_Machine_Game in library work.
+
+	CLKS_PER_SEC=32'b00000001011111010111100001000000
+	GAME_LIMIT=32'b00000000000000000000000000000111
+	START=3'b000
+	PATTERN_OFF=3'b001
+	PATTERN_SHOW=3'b010
+	WAIT_PLAYER=3'b011
+	INCR_SCORE=3'b100
+	LOSER=3'b101
+	WINNER=3'b110
+   Generated name = State_Machine_Game_25000000s_7s_0_1_2_3_4_5_6
+
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="C:\Users\tapiw\Desktop\State_Machine_Game.v:134:2:134:8:@W:CL169:@XP_MSG">State_Machine_Game.v(134)</a><!@TM:1718479721> | Pruning unused register r_Pattern_8_[1:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="C:\Users\tapiw\Desktop\State_Machine_Game.v:134:2:134:8:@W:CL169:@XP_MSG">State_Machine_Game.v(134)</a><!@TM:1718479721> | Pruning unused register r_Pattern_9_[1:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="C:\Users\tapiw\Desktop\State_Machine_Game.v:134:2:134:8:@W:CL169:@XP_MSG">State_Machine_Game.v(134)</a><!@TM:1718479721> | Pruning unused register r_Pattern_10_[1:0]. Make sure that there are no unused intermediate registers.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\tapiw\Desktop\Binary_To_7Segment.v:13:7:13:25:@N:CG364:@XP_MSG">Binary_To_7Segment.v(13)</a><!@TM:1718479721> | Synthesizing module Binary_To_7Segment in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\tapiw\Desktop\State_Machine_Project_Top.v:12:7:12:32:@N:CG364:@XP_MSG">State_Machine_Project_Top.v(12)</a><!@TM:1718479721> | Synthesizing module State_Machine_Project_Top in library work.
+
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="C:\Users\tapiw\Desktop\State_Machine_Game.v:42:2:42:8:@N:CL201:@XP_MSG">State_Machine_Game.v(42)</a><!@TM:1718479721> | Trying to extract state machine for register r_SM_Main.
+Extracted state machine for register r_SM_Main
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jun 15 15:28:41 2024
+
+###########################################################]
+<a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1718479721> | Running in 64-bit mode 
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\tapiw\Desktop\State_Machine_Project_Top.v:12:7:12:32:@N:NF107:@XP_MSG">State_Machine_Project_Top.v(12)</a><!@TM:1718479721> | Selected library: work cell: State_Machine_Project_Top view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\tapiw\Desktop\State_Machine_Project_Top.v:12:7:12:32:@N:NF107:@XP_MSG">State_Machine_Project_Top.v(12)</a><!@TM:1718479721> | Selected library: work cell: State_Machine_Project_Top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jun 15 15:28:41 2024
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jun 15 15:28:41 2024
+
+###########################################################]
+<a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1718479722> | Running in 64-bit mode 
+File C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synwork\memorygame_comp.srs changed - recompiling
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\tapiw\Desktop\State_Machine_Project_Top.v:12:7:12:32:@N:NF107:@XP_MSG">State_Machine_Project_Top.v(12)</a><!@TM:1718479722> | Selected library: work cell: State_Machine_Project_Top view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="C:\Users\tapiw\Desktop\State_Machine_Project_Top.v:12:7:12:32:@N:NF107:@XP_MSG">State_Machine_Project_Top.v(12)</a><!@TM:1718479722> | Selected library: work cell: State_Machine_Project_Top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jun 15 15:28:42 2024
+
+###########################################################]
+Pre-mapping Report
+
+# Sat Jun 15 15:28:42 2024
+
+<a name=mapperReport5></a>Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+Reading constraint file: C:\Users\tapiw\Downloads\Go_Board_Clock_Constraint.sdc
+Linked File: <a href="C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame_scck.rpt:@XP_FILE">memorygame_scck.rpt</a>
+Printing clock  summary report in "C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1718479722> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1718479722> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist State_Machine_Project_Top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start     Requested     Requested     Clock        Clock                Clock
+Clock     Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------
+i_Clk     25.0 MHz      40.000        declared     default_clkgroup     168  
+=============================================================================
+
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1718479722> | Writing default property annotation file C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Encoding state machine r_SM_Main[6:0] (in view: work.State_Machine_Game_25000000s_7s_0_1_2_3_4_5_6(verilog))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   100 -> 100
+   101 -> 101
+   110 -> 110
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Jun 15 15:28:42 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Jun 15 15:28:42 2024
+
+<a name=mapperReport7></a>Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1718479724> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1718479724> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N:<a href="@N:MT204:@XP_HELP">MT204</a> : <!@TM:1718479724> | Auto Constrain mode is disabled because clocks are defined in the SDC file 
+
+            i_Clk
+
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\users\tapiw\desktop\binary_to_7segment.v:30:6:30:10:@W:FA239:@XP_MSG">binary_to_7segment.v(30)</a><!@TM:1718479724> | ROM r_Hex_Encoding_2[6:0] (in view: work.Binary_To_7Segment(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="c:\users\tapiw\desktop\binary_to_7segment.v:30:6:30:10:@W:FA239:@XP_MSG">binary_to_7segment.v(30)</a><!@TM:1718479724> | ROM r_Hex_Encoding_2[6:0] (in view: work.Binary_To_7Segment(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="c:\users\tapiw\desktop\binary_to_7segment.v:30:6:30:10:@N:MO106:@XP_MSG">binary_to_7segment.v(30)</a><!@TM:1718479724> | Found ROM .delname. (in view: work.Binary_To_7Segment(verilog)) with 16 words by 7 bits.
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="c:\users\tapiw\desktop\debounce_filter.v:18:2:18:8:@W:FX1039:@XP_MSG">debounce_filter.v(18)</a><!@TM:1718479724> | User-specified initial value defined for instance Debounce_SW1.r_Count[17:0] is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="c:\users\tapiw\desktop\debounce_filter.v:18:2:18:8:@W:FX1039:@XP_MSG">debounce_filter.v(18)</a><!@TM:1718479724> | User-specified initial value defined for instance Debounce_SW1.r_State is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="c:\users\tapiw\desktop\debounce_filter.v:18:2:18:8:@W:FX1039:@XP_MSG">debounce_filter.v(18)</a><!@TM:1718479724> | User-specified initial value defined for instance Debounce_SW2.r_Count[17:0] is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="c:\users\tapiw\desktop\debounce_filter.v:18:2:18:8:@W:FX1039:@XP_MSG">debounce_filter.v(18)</a><!@TM:1718479724> | User-specified initial value defined for instance Debounce_SW2.r_State is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="c:\users\tapiw\desktop\debounce_filter.v:18:2:18:8:@W:FX1039:@XP_MSG">debounce_filter.v(18)</a><!@TM:1718479724> | User-specified initial value defined for instance Debounce_SW3.r_Count[17:0] is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="c:\users\tapiw\desktop\debounce_filter.v:18:2:18:8:@W:FX1039:@XP_MSG">debounce_filter.v(18)</a><!@TM:1718479724> | User-specified initial value defined for instance Debounce_SW3.r_State is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="c:\users\tapiw\desktop\debounce_filter.v:18:2:18:8:@W:FX1039:@XP_MSG">debounce_filter.v(18)</a><!@TM:1718479724> | User-specified initial value defined for instance Debounce_SW4.r_Count[17:0] is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="c:\users\tapiw\desktop\debounce_filter.v:18:2:18:8:@W:FX1039:@XP_MSG">debounce_filter.v(18)</a><!@TM:1718479724> | User-specified initial value defined for instance Debounce_SW4.r_State is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="c:\users\tapiw\desktop\lfsr_22.v:10:0:10:6:@W:FX1039:@XP_MSG">lfsr_22.v(10)</a><!@TM:1718479724> | User-specified initial value defined for instance Game_Inst.LFSR_Inst.r_LFSR[21:0] is being ignored. </font>
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Encoding state machine r_SM_Main[6:0] (in view: work.State_Machine_Game_25000000s_7s_0_1_2_3_4_5_6(verilog))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   100 -> 100
+   101 -> 101
+   110 -> 110
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 137MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 137MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 137MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 137MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    28.53ns		 244 /       164
+@N:<a href="@N:FX1016:@XP_HELP">FX1016</a> : <a href="c:\users\tapiw\desktop\state_machine_project_top.v:13:8:13:13:@N:FX1016:@XP_MSG">state_machine_project_top.v(13)</a><!@TM:1718479724> | SB_GB_IO inserted on the port i_Clk.
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1718479724> | SB_GB inserted on the net N_213. 
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1718479724> | SB_GB inserted on the net Debounce_SW4.r_Count12_i. 
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1718479724> | SB_GB inserted on the net Debounce_SW3.r_Count12_i. 
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1718479724> | SB_GB inserted on the net Debounce_SW2.r_Count12_i. 
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1718479724> | SB_GB inserted on the net Debounce_SW1.r_Count12_i. 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+1 non-gated/non-generated clock tree(s) driving 164 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=================================== Non-Gated/Non-Generated Clocks ====================================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance               
+-------------------------------------------------------------------------------------------------------
+<a href="@|S:i_Clk_ibuf_gb_io@|E:Scoreboard.r_Hex_Encoding_i[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       i_Clk_ibuf_gb_io     SB_GB_IO               164        Scoreboard.r_Hex_Encoding_i[0]
+=======================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 141MB)
+
+Writing Analyst data base C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synwork\memorygame_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Writing EDIF Netlist and constraint files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1718479724> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1718479724> | Synopsys Constraint File capacitance units using default value of 1pF  
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1718479724> | Writing EDF file: C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.edf 
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+@N:<a href="@N:MT615:@XP_HELP">MT615</a> : <!@TM:1718479724> | Found clock i_Clk with period 40.00ns  
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Sat Jun 15 15:28:44 2024
+#
+
+
+Top view:               State_Machine_Project_Top
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\tapiw\Downloads\Go_Board_Clock_Constraint.sdc
+                       
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1718479724> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1718479724> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: 23.517
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+i_Clk              25.0 MHz      60.7 MHz      40.000        16.483        23.517     declared     default_clkgroup
+===================================================================================================================
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+i_Clk     i_Clk   |  40.000      23.517  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport13></a>Detailed Report for Clock: i_Clk</a>
+====================================
+
+
+
+<a name=startingSlack14></a>Starting Points with Worst Slack</a>
+********************************
+
+                              Starting                                              Arrival           
+Instance                      Reference     Type        Pin     Net                 Time        Slack 
+                              Clock                                                                   
+------------------------------------------------------------------------------------------------------
+Game_Inst.r_Index[0]          i_Clk         SB_DFF      Q       r_Index[0]          0.540       23.517
+Game_Inst.r_Pattern_0_[1]     i_Clk         SB_DFFE     Q       r_Pattern_0_[1]     0.540       23.587
+Game_Inst.r_Pattern_1_[1]     i_Clk         SB_DFFE     Q       r_Pattern_1_[1]     0.540       23.615
+Game_Inst.r_Pattern_0_[0]     i_Clk         SB_DFFE     Q       r_Pattern_0_[0]     0.540       23.650
+Game_Inst.r_Pattern_2_[1]     i_Clk         SB_DFFE     Q       r_Pattern_2_[1]     0.540       23.650
+Game_Inst.r_Pattern_1_[0]     i_Clk         SB_DFFE     Q       r_Pattern_1_[0]     0.540       23.678
+Game_Inst.r_Pattern_3_[1]     i_Clk         SB_DFFE     Q       r_Pattern_3_[1]     0.540       23.678
+Game_Inst.r_Pattern_2_[0]     i_Clk         SB_DFFE     Q       r_Pattern_2_[0]     0.540       23.713
+Game_Inst.r_Pattern_3_[0]     i_Clk         SB_DFFE     Q       r_Pattern_3_[0]     0.540       23.741
+Game_Inst.r_Index[1]          i_Clk         SB_DFF      Q       r_Index[1]          0.540       25.267
+======================================================================================================
+
+
+<a name=endingSlack15></a>Ending Points with Worst Slack</a>
+******************************
+
+                                  Starting                                       Required           
+Instance                          Reference     Type       Pin     Net           Time         Slack 
+                                  Clock                                                             
+----------------------------------------------------------------------------------------------------
+Game_Inst.r_Index[2]              i_Clk         SB_DFF     D       r_Index_1     39.895       23.517
+Game_Inst.r_Index[1]              i_Clk         SB_DFF     D       r_Index_0     39.895       25.274
+Game_Inst.r_Index[0]              i_Clk         SB_DFF     D       r_Index       39.895       25.302
+Game_Inst.r_SM_Main[0]            i_Clk         SB_DFF     D       N_320_0       39.895       27.031
+Game_Inst.r_SM_Main[1]            i_Clk         SB_DFF     D       N_322_0       39.895       28.843
+Game_Inst.r_SM_Main[2]            i_Clk         SB_DFF     D       N_324_0       39.895       28.843
+Game_Inst.o_Score[3]              i_Clk         SB_DFF     D       o_Score_2     39.895       30.343
+Game_Inst.Count_Inst.o_Toggle     i_Clk         SB_DFF     D       o_Toggle      39.895       30.411
+Game_Inst.o_Score[0]              i_Clk         SB_DFF     D       o_Score       39.895       30.453
+Game_Inst.o_Score[2]              i_Clk         SB_DFF     D       o_Score_1     39.895       30.453
+====================================================================================================
+
+
+
+<a name=worstPaths16></a>Worst Path Information</a>
+<a href="C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.srr:srsfC:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\memorygame.srs:fp:24786:27513:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      40.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.895
+
+    - Propagation time:                      16.378
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     23.517
+
+    Number of logic level(s):                8
+    Starting point:                          Game_Inst.r_Index[0] / Q
+    Ending point:                            Game_Inst.r_Index[2] / D
+    The start point is clocked by            i_Clk [rising] on pin C
+    The end   point is clocked by            i_Clk [rising] on pin C
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+Game_Inst.r_Index[0]                  SB_DFF      Q        Out     0.540     0.540       -         
+r_Index[0]                            Net         -        -       1.599     -           12        
+Game_Inst.r_Pattern_1__RNID33I[1]     SB_LUT4     I0       In      -         2.139       -         
+Game_Inst.r_Pattern_1__RNID33I[1]     SB_LUT4     O        Out     0.449     2.588       -         
+r_Pattern_1__RNID33I[1]               Net         -        -       1.371     -           1         
+Game_Inst.r_Index_RNIDV7G1[1]         SB_LUT4     I2       In      -         3.959       -         
+Game_Inst.r_Index_RNIDV7G1[1]         SB_LUT4     O        Out     0.379     4.338       -         
+un1_r_Pattern_0__7_ns_1[1]            Net         -        -       1.371     -           1         
+Game_Inst.r_Index_RNIJBTT2[2]         SB_LUT4     I1       In      -         5.708       -         
+Game_Inst.r_Index_RNIJBTT2[2]         SB_LUT4     O        Out     0.400     6.108       -         
+N_31                                  Net         -        -       1.371     -           5         
+Game_Inst.r_Button_ID_RNIBUVL6[0]     SB_LUT4     I2       In      -         7.479       -         
+Game_Inst.r_Button_ID_RNIBUVL6[0]     SB_LUT4     O        Out     0.379     7.858       -         
+un1_r_Pattern_0__1_i_0                Net         -        -       1.371     -           5         
+Game_Inst.r_SM_Main_RNIVHER7[2]       SB_LUT4     I3       In      -         9.229       -         
+Game_Inst.r_SM_Main_RNIVHER7[2]       SB_LUT4     O        Out     0.316     9.544       -         
+N_269_0                               Net         -        -       1.371     -           1         
+Game_Inst.r_SM_Main_RNI1KGC8[1]       SB_LUT4     I0       In      -         10.916      -         
+Game_Inst.r_SM_Main_RNI1KGC8[1]       SB_LUT4     O        Out     0.386     11.301      -         
+N_314                                 Net         -        -       1.371     -           3         
+Game_Inst.r_Index_RNO_0[2]            SB_LUT4     I2       In      -         12.672      -         
+Game_Inst.r_Index_RNO_0[2]            SB_LUT4     O        Out     0.379     13.051      -         
+N_268_0                               Net         -        -       1.371     -           1         
+Game_Inst.r_Index_RNO[2]              SB_LUT4     I0       In      -         14.422      -         
+Game_Inst.r_Index_RNO[2]              SB_LUT4     O        Out     0.449     14.871      -         
+r_Index_1                             Net         -        -       1.507     -           1         
+Game_Inst.r_Index[2]                  SB_DFF      D        In      -         16.378      -         
+===================================================================================================
+Total path delay (propagation time + setup) of 16.483 is 3.780(22.9%) logic and 12.703(77.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+---------------------------------------
+<a name=resourceUsage17></a>Resource Usage Report for State_Machine_Project_Top </a>
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+GND             8 uses
+SB_CARRY        89 uses
+SB_DFF          52 uses
+SB_DFFE         16 uses
+SB_DFFSR        96 uses
+SB_GB           5 uses
+VCC             8 uses
+SB_LUT4         240 uses
+
+I/O ports: 16
+I/O primitives: 16
+SB_GB_IO       1 use
+SB_IO          15 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   164 (12%)
+Total load per clock:
+   i_Clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 240 (18%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 240 = 240 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Jun 15 15:28:44 2024
+
+###########################################################]
+
+</pre></samp></body></html>

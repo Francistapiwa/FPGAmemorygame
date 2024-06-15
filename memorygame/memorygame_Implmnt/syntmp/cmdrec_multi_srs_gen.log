@@ -1,0 +1,7 @@
+C:\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synwork\memorygame_comp.srs  -osyn  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synwork\memorygame_mult.srs  -log  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synlog\memorygame_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synwork\memorygame_comp.srs|io:i|time:1718479721|size:12584|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synwork\memorygame_mult.srs|io:o|time:1718479722|size:4105|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synlog\memorygame_multi_srs_gen.srr|io:o|time:1718479722|size:834|exec:0
+file:C:\synpbase\bin\syn_nfilter.exe|io:i|time:1712940673|size:3128320|exec:1
+file:C:\synpbase\bin64\syn_nfilter.exe|io:i|time:1712940675|size:3947520|exec:1

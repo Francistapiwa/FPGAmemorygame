@@ -1,0 +1,13 @@
+C:\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synwork\memorygame_comp.srs  -hdllog  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synlog\memorygame_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver   -I C:\Users\tapiw\Documents\memorygame\  -I C:\synpbase\lib   -v2001  -devicelib  C:\synpbase\lib\generic\sb_ice40.v  -encrypt  -pro  -dmgen  C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\Users\tapiw\Desktop\State_Machine_Game.v -lib work C:\Users\tapiw\Desktop\State_Machine_Project_Top.v -lib work C:\Users\tapiw\Desktop\Binary_To_7Segment.v -lib work C:\Users\tapiw\Desktop\Debounce_Filter.v -lib work C:\Users\tapiw\Desktop\Count_And_Toggle.v -lib work C:\Users\tapiw\Desktop\LFSR_22.v 
+rc:0 success:1 runtime:1
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synwork\memorygame_comp.srs|io:o|time:1718479721|size:12584|exec:0
+file:C:\Users\tapiw\Documents\memorygame\memorygame_Implmnt\synlog\memorygame_compiler.srr|io:o|time:1718479721|size:5366|exec:0
+file:C:\synpbase\lib\generic\sb_ice40.v|io:i|time:1712940676|size:224837|exec:0
+file:C:\Users\tapiw\Desktop\State_Machine_Game.v|io:i|time:1718477729|size:5971|exec:0
+file:C:\Users\tapiw\Desktop\State_Machine_Project_Top.v|io:i|time:1718477729|size:2950|exec:0
+file:C:\Users\tapiw\Desktop\Binary_To_7Segment.v|io:i|time:1718477729|size:2333|exec:0
+file:C:\Users\tapiw\Desktop\Debounce_Filter.v|io:i|time:1718478315|size:1287|exec:0
+file:C:\Users\tapiw\Desktop\Count_And_Toggle.v|io:i|time:1718478975|size:833|exec:0
+file:C:\Users\tapiw\Desktop\LFSR_22.v|io:i|time:1718479288|size:357|exec:0
+file:C:\synpbase\bin\c_hdl.exe|io:i|time:1712940671|size:1338368|exec:1
+file:C:\synpbase\bin64\c_hdl.exe|io:i|time:1712940673|size:1754112|exec:1

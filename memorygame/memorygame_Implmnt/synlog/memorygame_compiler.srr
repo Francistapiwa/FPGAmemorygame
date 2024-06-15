@@ -1,0 +1,99 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\tapiw\Desktop\State_Machine_Game.v" (library work)
+@I::"C:\Users\tapiw\Desktop\State_Machine_Project_Top.v" (library work)
+@I::"C:\Users\tapiw\Desktop\Binary_To_7Segment.v" (library work)
+@I::"C:\Users\tapiw\Desktop\Debounce_Filter.v" (library work)
+@I::"C:\Users\tapiw\Desktop\Count_And_Toggle.v" (library work)
+@I::"C:\Users\tapiw\Desktop\LFSR_22.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module State_Machine_Project_Top
+@N: CG364 :"C:\Users\tapiw\Desktop\Debounce_Filter.v":9:7:9:21|Synthesizing module Debounce_Filter in library work.
+
+	DEBOUNCE_LIMIT=32'b00000000000000111101000010010000
+   Generated name = Debounce_Filter_250000s
+
+@A: CG412 :"C:\Users\tapiw\Desktop\Debounce_Filter.v":22:8:22:29|Treating === and !== as == and != -- possible simulation mismatch
+@N: CG364 :"C:\Users\tapiw\Desktop\Count_And_Toggle.v":5:7:5:22|Synthesizing module Count_And_Toggle in library work.
+
+	COUNT_LIMIT=32'b00000000010111110101111000010000
+   Generated name = Count_And_Toggle_6250000s
+
+@N: CG364 :"C:\Users\tapiw\Desktop\LFSR_22.v":2:7:2:13|Synthesizing module LFSR_22 in library work.
+
+@N: CG364 :"C:\Users\tapiw\Desktop\State_Machine_Game.v":11:7:11:24|Synthesizing module State_Machine_Game in library work.
+
+	CLKS_PER_SEC=32'b00000001011111010111100001000000
+	GAME_LIMIT=32'b00000000000000000000000000000111
+	START=3'b000
+	PATTERN_OFF=3'b001
+	PATTERN_SHOW=3'b010
+	WAIT_PLAYER=3'b011
+	INCR_SCORE=3'b100
+	LOSER=3'b101
+	WINNER=3'b110
+   Generated name = State_Machine_Game_25000000s_7s_0_1_2_3_4_5_6
+
+@W: CL169 :"C:\Users\tapiw\Desktop\State_Machine_Game.v":134:2:134:7|Pruning unused register r_Pattern_8_[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\tapiw\Desktop\State_Machine_Game.v":134:2:134:7|Pruning unused register r_Pattern_9_[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\tapiw\Desktop\State_Machine_Game.v":134:2:134:7|Pruning unused register r_Pattern_10_[1:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\tapiw\Desktop\Binary_To_7Segment.v":13:7:13:24|Synthesizing module Binary_To_7Segment in library work.
+
+@N: CG364 :"C:\Users\tapiw\Desktop\State_Machine_Project_Top.v":12:7:12:31|Synthesizing module State_Machine_Project_Top in library work.
+
+@N: CL201 :"C:\Users\tapiw\Desktop\State_Machine_Game.v":42:2:42:7|Trying to extract state machine for register r_SM_Main.
+Extracted state machine for register r_SM_Main
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jun 15 15:28:41 2024
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\tapiw\Desktop\State_Machine_Project_Top.v":12:7:12:31|Selected library: work cell: State_Machine_Project_Top view verilog as top level
+@N: NF107 :"C:\Users\tapiw\Desktop\State_Machine_Project_Top.v":12:7:12:31|Selected library: work cell: State_Machine_Project_Top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jun 15 15:28:41 2024
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jun 15 15:28:41 2024
+
+###########################################################]

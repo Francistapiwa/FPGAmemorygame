@@ -1,0 +1,13 @@
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 2 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile     1832 out of  28666      6.39085%
+                          Span 4      133 out of   6944      1.91532%
+                         Span 12       19 out of   1440      1.31944%
+                  Global network        6 out of      8      75%
+      Vertical Inter-LUT Connect       43 out of   1120      3.83929%
+
